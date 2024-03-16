@@ -1,0 +1,136 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    color: white;
+    background-color: #272727;
+}
+
+body {
+    background-color: #121212;
+}
+
+.posts-container {
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #fef8f8;
+    padding: 20px;
+    margin-left: 20px;
+    height: 250px;
+    width: 400px;
+    font-size: 25px;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f8f1f1;
+    font-style: oblique;
+}
+
+#posts {
+    margin-top: 20px;
+}
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #121212;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: scale(1.05);
+}
+
+.post h3 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.post p {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.post img {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.post button {
+    margin-left: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.post button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.post-footer {
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #888;
+}
+
+.comments-container {
+    margin-top: 10px;
+    color: #666;
+}
+
+.comments-container p {
+    margin-left: 20px;
+}
+
+.sidebar input[type="text"],
+.sidebar input[type="file"] {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sidebar button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar button[type="submit"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
